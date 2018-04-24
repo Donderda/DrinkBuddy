@@ -1,0 +1,20 @@
+{
+  "name": "DrinkBuddy-Configurator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "install": "electron-rebuild"
+  },
+
+  "author": "Friedemann Stoffregen",
+  "devDependencies": {
+    "electron": "^1.4.1",
+    "electron-rebuild": "^1.4.0"
+  },
+  "dependencies": {
+    "data-table": "^2.0.0",
+    "serialport": "^4.0.7"
+  }
+}
